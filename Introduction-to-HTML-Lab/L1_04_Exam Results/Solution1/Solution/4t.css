@@ -1,0 +1,24 @@
+/* Apply styles to the table */
+table {
+    border-collapse: collapse;
+    border: 1px solid black; /* Thin border */
+    width: 50%; /* Set table width to 80% of the container */
+}
+
+/* Style for table header cells */
+th {
+    border: 1px solid #000; /* Thin border */
+    padding: 12px; /* Standard padding */
+    text-align: center; /* Center text */
+}
+
+/* Style for table data cells */
+td {
+    border: 1px solid #000; /* Thin border */
+    padding: 12px; /* Standard padding */
+}
+
+/* Center the header cell with colspan */
+th[colspan="4"] {
+    text-align: center;
+}
