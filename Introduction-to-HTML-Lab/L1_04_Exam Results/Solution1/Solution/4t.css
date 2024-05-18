@@ -1,24 +1,14 @@
-/* Apply styles to the table */
-table {
-    border-collapse: collapse;
-    border: 1px solid black; /* Thin border */
-    width: 50%; /* Set table width to 80% of the container */
+th, td {
+    border: 1px solid #000;
 }
 
-/* Style for table header cells */
-th {
-    border: 1px solid #000; /* Thin border */
-    padding: 12px; /* Standard padding */
-    text-align: center; /* Center text */
-}
-
-/* Style for table data cells */
-td {
-    border: 1px solid #000; /* Thin border */
-    padding: 12px; /* Standard padding */
-}
-
-/* Center the header cell with colspan */
-th[colspan="4"] {
+.bold {
+    font-weight: bold;
     text-align: center;
+}
+
+.result {
+    width: 400px;
+    text-align: right;
+    padding-right: 5px;
 }
