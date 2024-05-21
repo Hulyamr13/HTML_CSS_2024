@@ -1,0 +1,5 @@
+p {
+  font-weight: bold;
+  background-color: coral;
+  margin: 30px 40px 50px 20px; /* Sets margins in the order: top, right, bottom, left */
+}

@@ -1,0 +1,45 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+/* General styles for the container */
+.container {
+    margin-top: 20px;
+}
+
+/* Styles for link buttons */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000000; /* Black text color */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for link buttons */
+.button-link:hover {
+    opacity: 0.8;
+}
+
+/* Styles for button elements */
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000000; /* Black text color */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button elements */
+.button:hover {
+    opacity: 0.8;
+}
+
+/* Font Awesome icon styles */
+.button-link i, .button i {
+    margin-right: 5px;
+}

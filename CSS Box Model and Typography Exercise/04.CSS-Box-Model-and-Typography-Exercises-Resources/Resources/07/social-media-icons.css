@@ -1,0 +1,20 @@
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon-container {
+    width: 50px; /* Adjust the size of the container */
+    height: 50px; /* Adjust the size of the container */
+    border-radius: 50%; /* Make the container circular */
+    background-color: #CCCCCC; /* Gray background */
+    margin-right: 10px; /* Add spacing between icons */
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container i {
+    font-size: 24px; /* Adjust the size of the icon */
+    color: #000000; /* Black color for the icon */
+}

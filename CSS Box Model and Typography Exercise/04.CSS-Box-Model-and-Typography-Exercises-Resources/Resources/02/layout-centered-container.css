@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* White background */
+}
+
+.green-container {
+    border: 5px solid #85EB85; /* Green border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff; /* White background */
+}
+
+.blue-box {
+    border: 5px solid #A3D2E2; /* Blue border */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    background-color: #ffffff; /* White background */
+}
+
+.section {
+    border: 2px solid #000000; /* Black border for each section */
+    color: #000; /* Black text color */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}

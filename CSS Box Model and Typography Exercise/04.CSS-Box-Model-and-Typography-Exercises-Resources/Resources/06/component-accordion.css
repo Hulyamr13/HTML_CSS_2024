@@ -1,0 +1,17 @@
+/* Reset margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for accordion summary */
+summary {
+    cursor: pointer;
+    outline: none; /* Remove focus outline */
+}
+
+/* Style for accordion content */
+details > p {
+    margin-top: 20px;
+    margin-left: 10px;
+}

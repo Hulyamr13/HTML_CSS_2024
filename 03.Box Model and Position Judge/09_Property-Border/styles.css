@@ -1,0 +1,5 @@
+p {
+  font-weight: bold;
+  background-color: coral;
+  border: 2px solid blue; /* Sets the border to 2px solid blue */
+}

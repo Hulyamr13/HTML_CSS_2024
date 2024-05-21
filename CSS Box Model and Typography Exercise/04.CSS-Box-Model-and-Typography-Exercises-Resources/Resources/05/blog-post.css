@@ -1,0 +1,25 @@
+/* Blog Post CSS */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content span {
+    font-weight: bold;
+}
+
+.content .bold {
+    font-weight: bold;
+}
