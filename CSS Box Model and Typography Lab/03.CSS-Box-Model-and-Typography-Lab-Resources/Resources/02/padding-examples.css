@@ -1,0 +1,20 @@
+/* General div styling */
+div {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Uniform padding */
+.uniform-padding {
+    padding: 20px;
+}
+
+/* Non-uniform padding */
+.non-uniform-padding {
+    padding: 10px 30px 20px 40px;
+}
+
+/* Percentage padding */
+.percentage-padding {
+    padding: 5%;
+}

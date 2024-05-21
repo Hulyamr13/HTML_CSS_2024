@@ -1,0 +1,28 @@
+/* General div styling */
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Fixed width */
+.fixed-width {
+    width: 300px;
+}
+
+/* Percentage width */
+.percentage-width {
+    width: 50%;
+}
+
+/* Viewport width */
+.viewport-width {
+    width: 50vw;
+}
+
+/* Min-Max width */
+.min-max-width {
+    min-width: 100px;
+    max-width: 300px;
+}

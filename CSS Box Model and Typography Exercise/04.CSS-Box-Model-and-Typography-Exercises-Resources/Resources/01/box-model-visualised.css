@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.margin {
+    background-color: #FF966F; /* Margin color */
+    padding: 20px; /* Create space to visualize the margin */
+}
+
+.border {
+    border: 20px solid #FFE8C6; /* Border color */
+}
+
+.padding {
+    background-color: #85EB85; /* Padding color */
+    padding: 20px; /* Padding with 20px on all sides */
+}
+
+.content {
+    background-color: #A3D2E2; /* Content background color */
+    width: 360px; /* Content width */
+    height: 70px; /* Content height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > p {
+    margin: 0;
+}

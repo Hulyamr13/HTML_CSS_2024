@@ -1,0 +1,7 @@
+html {
+    font-family: "Lato", sans-serif; /* Set font-family for the whole document */
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit; /* Set font-family for body and all heading elements */
+}

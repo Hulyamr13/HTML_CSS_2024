@@ -1,0 +1,20 @@
+/* General div styling */
+div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Uniform margin */
+.uniform-margin {
+    margin: 40px;
+}
+
+/* Non-uniform margin */
+.non-uniform-margin {
+    margin: 10px 30px 20px 40px;
+}
+
+/* Negative margin */
+.negative-margin {
+    margin: -20px;
+}
