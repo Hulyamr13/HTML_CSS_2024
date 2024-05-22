@@ -1,35 +1,48 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
+    padding: 0;
     margin: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+.box-model{
+    max-width: 600px;
+    margin: 4em auto;
+}
+
+.box-model div {
+    border: 1px dashed #333; /* Border for the box model container */
+    padding: 0.5em 2em 2em 2em;
+}
+
+.box-model div:before{
+    display: block;
+    padding-bottom: 0.5em;
+    margin-left: -1em;
 }
 
 .margin {
     background-color: #FF966F; /* Margin color */
-    padding: 20px; /* Create space to visualize the margin */
 }
 
+.margin::before{
+    content: 'margin';
+}
 .border {
-    border: 20px solid #FFE8C6; /* Border color */
+    background-color: #FFE8C6; /* Border color */
+}
+
+.border::before {
+  content: 'border';
 }
 
 .padding {
     background-color: #85EB85; /* Padding color */
-    padding: 20px; /* Padding with 20px on all sides */
+}
+
+.padding::before {
+  content: 'padding';
 }
 
 .content {
     background-color: #A3D2E2; /* Content background color */
-    width: 360px; /* Content width */
-    height: 70px; /* Content height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content > p {
-    margin: 0;
+    text-align: center;
 }
