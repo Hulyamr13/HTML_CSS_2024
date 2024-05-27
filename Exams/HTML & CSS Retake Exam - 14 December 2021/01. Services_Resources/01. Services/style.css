@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+html{
+    font-family: Poppins, serif;
+    margin: 0 auto;
+}
+
+
+
+section{
+    display: flex;
+    width: 60%;
+    gap: 25px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 30%
+}
+
+nav h1 {
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+nav h1 span {
+    color:#A4C539;
+    font-weight: bold;
+}
+
+nav p {
+    font-size: 14px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    width: 60%;
+    height: 55vh;
+    margin-top: 210px;
+    position: relative;
+}
+
+article img{
+    width: 100%;
+}
+
+article h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+article p{
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 2;
+    padding-bottom: 80px;
+
+}
+
+article button{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #A4C539;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 12px 22px 12px 22px;
+    position: absolute;
+    top: 350px;
+    right: 170px;
+    text-transform: uppercase;
+}
