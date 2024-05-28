@@ -1,0 +1,42 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow to body */
+
+}
+
+header, main, aside, footer {
+    padding: 1rem 2rem;
+    background-color: #FFF;
+    border: 1px solid #000; /* Add border to each element */
+    border-radius: 0.4rem;
+    color: #000;
+    margin: 1rem 0;
+}
+
+section {
+    display: flex;
+    gap: 1.5em;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}

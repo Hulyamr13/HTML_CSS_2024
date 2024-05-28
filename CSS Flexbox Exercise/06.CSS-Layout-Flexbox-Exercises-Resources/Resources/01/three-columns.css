@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro-text,
+.outro-text {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    max-width: 6%;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    padding: 10px;
+}
+
+.column h2 {
+    font-weight: bold;
+}
+
