@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    max-width: 68em;
+    margin: 3em auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 70%;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    border-radius: 5px;
+    padding: 2em;
+    background-color: #fff;
+    height: 100%;
+}
+
+.item blockquote {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.item p {
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: rgb(159, 159, 159);
+    font-weight: 700;
+}
+
+.item cite {
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+}
+
+.circle {
+    width: 8em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #009900;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+i {
+    font-size: 3.5em;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 37%;
+}
+
+.right-section .circle {
+    width: 8em;
+    height: 8em;
+    margin-bottom: 8em;
+
+}
