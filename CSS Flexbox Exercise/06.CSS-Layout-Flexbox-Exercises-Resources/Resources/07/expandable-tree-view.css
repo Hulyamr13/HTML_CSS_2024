@@ -1,35 +1,69 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.tree ul {
+body{
+    padding: 2em;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+ul{
+    padding: 0 0 0 0.5em;
     list-style: none;
-    padding-left: 1em;
+    line-height: 2em;
 }
 
-.tree ul ul {
-    margin-left: 1em;
+ul li{
+    display: flex;
 }
 
-.tree i {
+ul li li{
+    border-left: 2px solid #ccc;
+}
+
+ul li li::before{
+    display: inline-block;
+    position: relative;
+    content: '';
+    border: solid #ccc;
+    border-width: 0 0 2px 2px;
+    border-bottom-left-radius: 0.3em;
+    width: 1.5em;
+    height: 1.5em;
+    top: -0.5em;
+    left: -2px;
     margin-right: 0.5em;
+
+}
+
+details summary{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
     cursor: pointer;
 }
 
-.tree .nested {
-    display: none;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"]:checked ~ .nested {
+details summary::before{
     display: block;
+    content: "+";
+    background: #7EA97E;;
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+    aspect-ratio: 1/1;
+    line-height: 1;
+    align-content: center;
+    text-align: center;
+    border-radius: 50em;
+    overflow: hidden;
+    z-index: 100;
+    position: relative;
+    border-left: 0;
 }
 
-label {
-    cursor: pointer;
+
+details[open] > summary::before{
+    content: '-';
 }

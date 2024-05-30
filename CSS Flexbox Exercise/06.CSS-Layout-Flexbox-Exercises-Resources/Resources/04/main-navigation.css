@@ -1,41 +1,107 @@
-body {
-    font-family: Arial, sans-serif;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
 }
 
 nav {
-    background-color:  #f4f4f4;
-    border: 1px solid #d3d3d3;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80em;
+    margin: 5em auto 0;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
 }
 
-.navbar {
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+nav > ul {
     display: flex;
-    justify-content: flex-start;
+    gap: 1em;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+    background-color: #eee;
+    color: rgb(250, 190, 78);
+    border-radius: 5px;
+    border: 1px solid #aaa;
 }
 
-.navbar li {
-    display: inline;
+nav > ul > li {
+    position: relative;
 }
 
-.navbar li a {
-  display: block;
-  color: #FF8D04;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  border: 1px solid #d3d3d3;
-  border-radius: 4px;
-  margin: 5px;
-  transition: background-color 0.3s ease;
-  box-sizing: border-box;
+nav > ul ul {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
 }
 
-.navbar li a:hover {
-    background-color: #f0f0f0;
+nav ul a {
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-weight: 700;
+    display: block;
+}
+
+.dropdown-level-one {
+    display: none;
+    position: absolute;
+    top: 2em;
+    width: 20em;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 1;
+}
+
+.dropdown-level-two {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 21em;
+    width: 20em;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 2;
+}
+
+.dropdown-level-one, .dropdown-level-two {
+    line-height: 2;
+    text-align: center;
+}
+
+.dropdown-level-one a, .dropdown-level-two a {
+    padding: 0.5em 0;
+    border: none;
+}
+
+a:hover {
+    background-color: rgb(250, 190, 78);
+    color: white;
+}
+
+.dropdown:hover > .dropdown-level-one,
+.dropdown-level-one:hover {
+    display: block;
+}
+
+.dropdown-two:hover > .dropdown-level-two,
+.dropdown-level-two:hover {
+    display: block;
 }

@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
+    <title>Main Navigation</title>
     <link rel="stylesheet" href="main-navigation.css">
 </head>
 <body>
-    <nav>
-        <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <ul class="dropdown-level-one">
+                        <li class="dropdown-two">
+                            <a href="#">Professional gibberish generator</a>
+                            <ul class="dropdown-level-two">
+                                <li><a href="#">Start-up gibberish</a></li>
+                                <li><a href="#">Corporate gibberish</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Mentorship program for aspiring nonsense peddlers</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Products</a>
+                    <ul class="dropdown-level-one">
+                        <li><a href="#">Exclusive Snakeoil</a></li>
+                        <li><a href="#">Super limited t-shirts</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>

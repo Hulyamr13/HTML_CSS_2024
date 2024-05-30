@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expandable Tree View</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Collapsible & expandable tree view in HTML & CSS only</title>
     <link rel="stylesheet" href="expandable-tree-view.css">
 </head>
 <body>
+    <h1>Collapsible & expandable tree view in HTML & CSS only</h1>
+
     <div class="tree">
         <ul>
-            <li class="parent">
-                <label for="toggle1"><i class="fa-solid fa-circle-minus" style="color: #25b15b;"></i> Giant planets</label>
-                <input type="checkbox" id="toggle1">
-                <ul class="nested">
-                    <li class="parent">
-                        <label for="toggle2"><i class="fa-solid fa-circle-minus" style="color: #25b15b;"></i> Gas giants</label>
-                        <input type="checkbox" id="toggle2">
-                        <ul class="nested">
-                            <li>Jupiter</li>
-                            <li>Saturn</li>
-                        </ul>
-                    </li>
-                    <li class="parent">
-                        <label for="toggle3"><i class="fa-solid fa-circle-minus" style="color: #25b15b;"></i> Ice giants</label>
-                        <input type="checkbox" id="toggle3">
-                        <ul class="nested">
-                            <li>Uranus</li>
-                            <li>Neptune</li>
-                        </ul>
-                    </li>
-                </ul>
+            <li>
+                <details open>
+                    <summary>Giant planets</summary>
+                    <ul>
+                        <li>
+                            <details open>
+                                <summary>Gas giants</summary>
+                                <ul>
+                                    <li>Jupiter</li>
+                                    <li>Saturn</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details open>
+                                <summary>Ice giants</summary>
+                                <ul>
+                                    <li>Uranus</li>
+                                    <li>Neptune</li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
             </li>
         </ul>
     </div>
