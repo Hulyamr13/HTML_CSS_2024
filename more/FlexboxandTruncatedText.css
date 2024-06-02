@@ -1,0 +1,35 @@
+.flex-parent {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flex-child {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.text-truncate {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
