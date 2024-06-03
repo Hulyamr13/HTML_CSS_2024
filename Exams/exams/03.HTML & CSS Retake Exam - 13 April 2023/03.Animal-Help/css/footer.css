@@ -1,0 +1,20 @@
+.site-footer {
+    padding-bottom: 1em;
+}
+
+.site-footer ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+}
+
+.site-footer ul li {
+    list-style: none;
+    padding-right: 1em;
+}
+
+.site-footer .right{
+    margin-left: auto;
+    padding-right: 3em;
+}
+

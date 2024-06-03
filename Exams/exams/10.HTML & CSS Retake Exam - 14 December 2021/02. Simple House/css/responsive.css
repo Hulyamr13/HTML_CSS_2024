@@ -1,0 +1,77 @@
+@media (width <=600px) {
+
+    body {
+        min-width: 580px;
+        /* font-size: 26px; */
+    }
+
+    .tm-site-logo {
+        width: 5em;
+        height: 5em;
+    }
+
+    .tm-site-title {
+        font-size: 3em;
+    }
+
+    .tm-site-description {
+        font-size: 1.4em;
+    }
+
+    .tm-nav {
+        margin-left: auto;
+    }
+
+    .tm-nav-li {
+        font-size: 1.1em;
+    }
+
+    .tm-section-title {
+        font-size: 2em;
+        padding-right: 4em;
+    }
+
+    .tm-gallery {
+        margin: 0;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .tm-gallery-item {
+        margin-right: 1em;
+    }
+
+    .tm-container-inner {
+        width: 580px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .tm-container-inner .row {
+        flex-direction: column;
+    }
+
+    .tm-container-inner .row .col-md-6 {
+        padding: 0;
+    }
+
+    .tm-description-box .tm-mb-45 {
+        font-size: 1.4em;
+    }
+
+    .tm-description-box .tm-gallery-title {
+        font-size: 1.6em;
+    }
+
+    .tm-right {
+        font-size: 1.4em;
+    }
+
+    .tm-footer {
+        font-size: 1.4em;
+    }
+
+}

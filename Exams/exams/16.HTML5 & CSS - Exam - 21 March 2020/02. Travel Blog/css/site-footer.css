@@ -1,0 +1,28 @@
+.site-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(140, 140, 140, 1);
+}
+
+.section-list {
+    padding: 2em 0 1em 0;
+}
+
+.section-list ul{
+    display: flex;
+    gap: 1em;
+}
+
+.section-list ul li {
+    display: block;
+}
+
+.section-list ul li a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgba(201, 201, 201, 1);
+}
+
+.border {
+    border-left: 1px solid rgba(201, 201, 201, 1);
+}

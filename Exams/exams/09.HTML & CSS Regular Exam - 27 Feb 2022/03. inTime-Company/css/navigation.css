@@ -1,0 +1,33 @@
+.site-header {
+    margin: 1em 9em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header p {
+    font-size: 1.5em;
+}
+
+.site-header p span {
+    color: rgba(52, 177, 196, 1);
+}
+
+.site-nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+.site-nav ul li:nth-child(1)::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid rgba(52, 177, 196, 1);
+}
+
+.site-nav li {
+    display: block;
+}
+
+.site-nav li a {
+    color: #000;
+    text-decoration: none;
+}

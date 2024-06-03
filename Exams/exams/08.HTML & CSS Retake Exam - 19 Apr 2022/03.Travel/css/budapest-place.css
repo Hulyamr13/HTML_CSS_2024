@@ -1,0 +1,74 @@
+.budapest-place {}
+
+.budapest-place h2 {
+    padding-top: 1em;
+    line-height: 0.1;
+    color: rgba(79, 85, 121, 1);
+    text-align: center;
+}
+
+.budapest-place p:nth-child(3) {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: rgba(79, 85, 121, 1);
+    text-align: center;
+}
+
+.img-place {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    gap: 0.5em;
+}
+
+.img-place li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.img-place li img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgba(82, 83, 111, 1);
+    padding: 0.2em;
+    border-radius: 50%;
+}
+
+.img-place li p {
+    text-align: center;
+    line-height: 0.1;
+    padding-top: 1em;
+    font-size: 0.7em;
+    color: rgba(96, 87, 88, 1);
+}
+
+.place-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(181, 142, 15, 1);
+}
+
+.newsletter {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: #fff;
+}
+
+.subscribe {
+    padding-right: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.subscribe a {
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+}

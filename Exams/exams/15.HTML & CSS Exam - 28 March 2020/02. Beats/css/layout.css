@@ -1,0 +1,17 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-footer {
+    margin-top: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+}

@@ -1,0 +1,32 @@
+.main-nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-nav ul {
+    display: flex;
+    padding-left: 9em;
+}
+
+.main-nav ul li {
+    list-style: none;
+    padding: 1.5em;
+}
+
+.main-nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-nav ul li.sign,
+.main-nav ul li.login {
+    padding: 1.5em 0.5em;
+    position:relative;
+    left: 35em;
+}
+
+.main-nav ul li.sign a {
+    padding: 0.6em 1.2em;
+    border-radius: 0.3em;
+    background-color: rgba(173, 226, 223, 1);
+}

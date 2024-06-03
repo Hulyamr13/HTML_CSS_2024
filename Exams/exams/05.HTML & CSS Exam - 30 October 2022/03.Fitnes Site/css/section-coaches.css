@@ -1,0 +1,61 @@
+.section-coaches {
+    background-color: rgba(239, 239, 239, 1);
+    padding-bottom: 4em;
+    /* padding: 0 1em 4em 1em; */
+}
+
+.section-coaches header h2 {
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.section-coaches header h2::after{
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 2px;
+    border-radius: 2px;
+    margin: 1em auto;
+    background-color: rgba(208, 25, 25, 1);
+}
+
+.card-coaches {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5em;
+    gap: 2em;
+}
+
+.card {
+    padding-left: 3em;
+    padding-right: 2.5em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em;
+}
+
+.content-coach {}
+
+.content-coach h5 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.content-coach p {
+    padding-top: 0.3em;
+    text-align: center;
+}
+
+.content-coach :nth-child(2) {
+    color: rgba(214, 74, 52, 1);
+}
+
+.content-coach :nth-child(3){
+    color: rgb(143, 141, 140);
+} 

@@ -1,0 +1,27 @@
+.business-content {
+    display: flex;
+    gap: 2em;
+    margin: 3em 0 4em 0;
+}
+
+.content h4,
+.content p {
+    padding-bottom: 0.5em;
+    color: rgba(55, 40, 43, 1);
+}
+
+.content p {
+    font-size: 0.9em;
+}
+
+.btn {
+    margin-top: 2em;
+}
+
+.btn a {
+    border: 2px solid var(--lightbrown);
+    padding: 0.5em 1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--lightbrown);
+}

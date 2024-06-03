@@ -1,0 +1,43 @@
+.second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left h4{
+        text-align: center;
+        padding-top: 1em;
+        font-size: 2em;
+}
+
+.media img {
+    height: 100%;
+    width: 100%;
+}
+
+.cards {
+    padding: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    gap: 80px;
+
+}
+
+.card {}
+
+.card span {
+    color: rgba(0, 208, 142, 1);
+}
+
+.img-container {
+    padding-bottom: 1em;
+}
+
+
+.img-container img {
+    display: block;
+    max-width: 100%;
+    width: 80px;
+    height: 80px;
+}

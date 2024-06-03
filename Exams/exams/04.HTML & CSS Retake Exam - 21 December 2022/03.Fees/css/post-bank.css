@@ -1,0 +1,24 @@
+.post-bank {
+    display: flex;
+    margin:3em 5em 2em 5em
+}
+
+.text-container {
+    flex-grow: 1;
+    padding-right: 1.5em;
+}
+
+.text-container h6 {
+    color: rgba(84, 84, 109, 1);
+}
+
+.post-bank p {
+    color: rgba(86, 86, 86, 1);
+    padding-top: 1em;
+    
+}
+
+.post-bank img{
+    max-width: 100%; 
+    height: auto; 
+}

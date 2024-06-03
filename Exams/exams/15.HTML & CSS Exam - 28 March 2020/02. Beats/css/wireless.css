@@ -1,0 +1,39 @@
+.wireless .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.wireless-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+.wireless-content h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.wireless-content p {
+    font-weight: 300;
+    max-width: 48ch;
+}
+
+.wireless-btn {
+    margin-top: 2em;
+}
+
+.wireless-btn a {
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--red);
+    color: #fff;
+}
+
+.wireless-media {
+    max-width: 30em;
+}

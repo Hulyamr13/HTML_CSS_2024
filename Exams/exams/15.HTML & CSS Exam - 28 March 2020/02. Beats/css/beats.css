@@ -1,0 +1,59 @@
+.power-beats {
+    margin-bottom: 2em;
+}
+
+.power-beats .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8em;
+}
+
+.media-beats img {
+    max-width: 25em;
+}
+
+.beats-content h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.beats-content p:nth-child(2) {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 300;padding-bottom: 4em;
+}
+
+.beats-content p:nth-child(2) span {
+    font-weight: 600;
+}
+
+.beats-content p:nth-child(3) {
+    max-width: 42ch;
+    font-weight: 300;
+}
+
+.buy-btn {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.buy-btn p {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.buy-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    color: #fff;
+    background-color: var(--red);
+}

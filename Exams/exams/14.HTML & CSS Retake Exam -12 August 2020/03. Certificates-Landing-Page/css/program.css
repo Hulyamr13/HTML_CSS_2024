@@ -1,0 +1,58 @@
+.program {
+    margin: 4em 0 3em 0;
+}
+
+.program .container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+}
+
+.program .container {
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+}
+
+.program .container p {
+    font-size: 0.8em;
+    max-width: 47em;
+    margin: 0 auto;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.buttons a:first-child {
+    background-color: #fff;
+    color: var(--lightblue);
+    padding: 0.3em 1.5em;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+
+.buttons a:last-child {
+    color: #fff;
+    padding: 0.3em 1.5em;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 0.3em;
+}
+
+.border {
+    border-left: 1px solid #fff;
+    height: 1.5em;
+}
+
+.horizontal-line .container {
+    border-top: 1px solid #000;
+    padding-bottom: 0.8em;
+}

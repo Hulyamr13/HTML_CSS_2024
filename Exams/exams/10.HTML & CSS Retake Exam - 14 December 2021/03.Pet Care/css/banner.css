@@ -1,0 +1,50 @@
+.site-banner{
+    display: flex;
+    position: relative;
+    background-image: url(../images/header-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.content-banner{
+    display: flex;
+    flex-direction: column;  
+    margin: 5em 0 3em 13em; 
+}
+
+.content-banner h1 {
+    line-height: 0.8;
+    color: #fff;
+}
+
+.content-banner h1:nth-child(1){
+    font-weight: 200;
+}
+
+.content-banner p {
+    width: 20em;
+    color: #fff;
+}
+
+.contact-btn{
+    margin-top: 2.5em;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: #fff;
+    color: rgba(255, 54, 0, 1);
+}
+
+.dog-pic {
+    position: absolute;
+    top: 72%;
+    left: 61%;
+    transform: translate(-48%, -60%);
+}
+
+.dog-pic img{
+    width: 90%;
+}

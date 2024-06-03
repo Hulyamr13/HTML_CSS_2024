@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 14px/1.5 'Popins', sans-serif;
+}
+
+.site {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.site header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.site header p {
+    color: rgba(140, 140, 140, 1);
+}
+
+.site header span {
+    color: rgba(171, 196, 82, 1);
+}
+
+.site header p {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.card-list {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 0 30%;
+    background: rgb(240, 239, 239);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: rgba(154, 154, 154, 1);
+}
+
+.content a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: rgba(171, 196, 82, 1);
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}

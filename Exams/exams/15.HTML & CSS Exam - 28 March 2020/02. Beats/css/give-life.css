@@ -1,0 +1,44 @@
+.give-life {
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.give-life .container  {
+    display: flex;
+    justify-content: center;
+}
+
+.content-women {
+    display: flex;
+    gap: 2em;
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.header {
+    padding: 2em;
+}
+
+.header h1 {
+    max-width: 4ch;
+    font-size: 5em;
+    margin-bottom: 0;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 1);
+}
+
+.header p {
+    letter-spacing: -0.1em;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-left: 0.3em;
+}
+
+.header span {
+    text-transform: uppercase;
+    color: var(--red);
+    font-weight: 600;
+}
+
+.headphones {
+    padding: 2em;
+}

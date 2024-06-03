@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 'Open Sans', sans-serif;
+}
+
+input {
+    margin-bottom: 3em;
+}
+
+form {
+    margin-left: 3em;
+}
+
+
+.site {
+    display: flex;
+    justify-content: center;
+    margin: 6em auto;
+    /* min-height: 100vh; */
+}
+
+.img-wraper {
+    background: url(./image/calculator.png) no-repeat center center;
+    background-size: contain;
+    width: 29%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.calculator-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-content h2 {
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.calculator-content .units {
+    display: flex;
+    justify-content: space-around;
+}
+
+.units {
+    margin-bottom: 1em;
+}
+
+.units .standart {
+    padding: 0.3em;
+    margin-right: 3em;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    background-color: rgba(134, 216, 98, 1);
+}
+
+.units .standart a {
+    padding: 0.3em;
+    text-decoration: none;
+    color: #000;
+}
+
+.units .metric {
+    padding: 0.3em;
+    margin-left: 3em;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    background-color: rgba(224, 224, 223, 1);
+}
+
+.units .metric a {
+    padding: 2.2em;
+    text-decoration: none;
+    color: #000;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.gender label {
+    font-weight: 700;
+    text-align: center;
+}
+
+.gender-content {
+    text-align: center;
+}
+
+.gender-content select {
+    text-align: start;
+    margin-right: 1em;
+    padding: 0 8em 0 0;
+}
+
+.gender-content input {
+    margin-left: 1em;
+}
+
+.weight {
+    display: flex;
+    flex-direction: column;
+}
+
+.weight label {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.weight input {
+    padding: 0.3em;
+}
+
+.height {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.height-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.height label {
+    font-weight: 700;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.height input {
+    flex: 1;
+    margin-right: 0.6em;
+}
+
+.height input:nth-child(2) {
+    margin-left: 1.5em;
+}
+
+.calculate{
+    text-align: center;
+}
+
+.calculate a{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5em 12em;
+    border-radius: 1em;
+    box-shadow: 5px 76px 78px -7px rgba(0,0,0,0.4);
+    color: #fff;
+    background-color: rgba(5, 162, 211, 1);
+}

@@ -1,0 +1,101 @@
+.animals-work {}
+
+.animal-picture h3 {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.animal-picture p {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.media-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3em;
+}
+
+.media-pictures img {
+    display: block;
+    max-width: 100%;
+    width: 20em;
+    height: 20em;
+}
+
+.animal-work-content {
+    margin-top: 2.5em;
+}
+
+.animal-work-content h5 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.works-paragpraphs {
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 0.3em;
+    margin: 0 9em 1em 9em
+}
+
+.works-paragpraphs h6 {
+    font-size: 1.2em;
+    padding: 1.5em;
+    background-color: rgba(133, 220, 255, 1);
+}
+
+.works-paragpraphs p {
+    font-weight: bold;
+    padding: 1.5em 1.5em;
+}
+
+.help-animal {
+    display: flex;
+    margin-top: 3em;
+}
+
+.help-animal img {
+    display: block;
+    max-width: 100%;
+    width: 50%;
+    height: 100%;
+}
+
+.help-animal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-animal-content h3 {
+    font-size: 2em;
+    padding:5em 2.5em 1em 0;
+}
+
+.help-animal-content p {
+    font-size: 1.1em;
+    margin: 0 5em;
+    padding-bottom: 1.5em;
+}
+
+.help-animal-content input {
+    padding: 0.5em;
+    border: 1px solid rgba(226, 226, 226, 1);
+    border-radius: 0.3em;
+    margin-right: 30em;
+}
+
+.send-btn {
+    margin: 2em 25em 10em 0;
+}
+
+.send-btn a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8em 4em;
+    border-radius: 0.3em;
+}

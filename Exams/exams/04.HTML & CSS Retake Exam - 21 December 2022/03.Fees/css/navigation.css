@@ -1,0 +1,29 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin-left: 5em;
+    width: 140px;
+    height: 70px;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-nav ul{
+    display: flex;
+    gap: 1em;
+    margin-right: 5em;
+    list-style: none;
+}
+
+.site-nav ul li a{
+    font-size: 1.2em;
+    color: rgba(84, 84, 115, 1);
+    text-decoration: none;
+}

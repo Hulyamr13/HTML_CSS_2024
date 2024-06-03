@@ -1,0 +1,30 @@
+.banner {
+    position: relative;
+    min-height: 80vh;
+    background-image: url(../images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0.8em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.get-started {
+    margin: 0.5em 0;
+}
+
+.get-started a {
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 140, 186, 1);
+}

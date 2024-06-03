@@ -1,0 +1,40 @@
+.question {
+    background-color: rgba(178, 241, 221, 1);
+}
+
+.question h4 {
+    font-size: 1.8em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+.question p {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.question p span {
+    font-weight: bold;
+}
+
+.questions-content {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 0 2em;
+}
+
+.blog {
+   width: 30%;
+   margin-bottom: 2em;
+}
+
+.blog h5 {
+    text-align: center;
+}
+
+.blog p {
+    font-size: 1.2em;
+   text-align: center;
+}

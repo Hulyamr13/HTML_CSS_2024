@@ -1,0 +1,42 @@
+.shuttle {
+    height: 25em;
+    background-image: url(../image/slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wraper {
+    position: relative;
+}
+
+.shuttle-content {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, 60%);
+    width: 22em;
+    height: 10em;
+    padding: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+}
+
+.shuttle-content p {
+    font-size: 0.8em;
+}
+
+.read-more {
+    margin-top: 1.5em;
+}
+
+.read-more a{
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    color: rgba(240, 166, 0, 1);
+    border: 2px solid #fff;
+    transition: color 0.3s;
+}
+.read-more a:hover{
+    background-color: #fff;
+}

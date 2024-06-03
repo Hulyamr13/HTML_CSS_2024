@@ -1,0 +1,41 @@
+.site-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.contact,
+.service,
+.link,
+.address {
+    flex: 1;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.contact h6,
+.service h6,
+.link h6 {
+    padding-bottom: 1em;
+}
+
+.contact p,
+.service p,
+.link p,
+.address p {
+    font-size: 0.9em;
+}
+
+.contact {
+    margin-left: 6em;
+}
+
+.address {
+    margin-right: 6em;
+}
+
+.address img {
+    width: 5em;
+    padding-bottom: 1em;
+}

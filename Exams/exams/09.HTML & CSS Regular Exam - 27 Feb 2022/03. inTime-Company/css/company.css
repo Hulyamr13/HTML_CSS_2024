@@ -1,0 +1,31 @@
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 12em;
+}
+
+.company h4 {
+    font-weight: 500;
+}
+
+.company h4::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid rgba(52, 177, 196, 1);
+    width: 3.8em;
+    margin: 0.2em 0 0.5em 5.5em;
+}
+
+.read-more {
+    margin-top: 2em;
+}
+
+.read-more a {
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(69, 69, 69, 1);
+}

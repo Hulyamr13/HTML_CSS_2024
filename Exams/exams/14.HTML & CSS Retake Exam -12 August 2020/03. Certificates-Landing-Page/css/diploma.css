@@ -1,0 +1,22 @@
+.diploma .container h4{
+    padding: 4em 0 2em 0;
+    text-align: center;
+    font-weight: 500;
+    color: rgba(91, 103, 117, 1);
+}
+
+.diploma .container p {
+    padding: 1em 0;
+    font-size: 0.8em;
+}
+
+.diploma .container p:nth-child(2),
+.diploma .container p:nth-child(3) {
+    background-color: rgba(244, 245, 247, 1);
+    color: rgba(91, 103, 117, 1);
+   padding: 1em 1em 3em 1em;
+}
+
+.diploma .container p:nth-child(4) {
+    color: rgba(91, 103, 117, 1);
+}

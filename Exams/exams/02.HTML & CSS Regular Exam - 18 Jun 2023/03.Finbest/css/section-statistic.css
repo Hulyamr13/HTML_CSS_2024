@@ -1,0 +1,31 @@
+.section-statistics {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+ .section-statistics .first {
+    display: block;
+    content: '';
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-top: none;
+    border-bottom: none;
+    height: 10em;
+}
+
+.statistic :nth-child(2) {
+    width: 22em;
+}
+ 
+
+.statistic {
+    text-align: center;
+}
+
+.statistic :nth-child(1) {
+    font-weight: 700;
+    font-size: 1.9em;
+    padding-bottom: 0.5em;
+}

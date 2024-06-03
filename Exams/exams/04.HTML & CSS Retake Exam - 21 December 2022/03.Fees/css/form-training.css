@@ -1,0 +1,48 @@
+.form-training {
+    display: flex;
+    flex-direction: column;
+    margin: 0 13em;
+}
+
+.form-training h6,
+.form-training p {
+    margin-bottom: 1.5em;
+}
+
+.form-training h6 {
+    color: rgba(84, 84, 109, 1);
+}
+
+.form-training p {
+    color: rgba(86, 86, 86, 1);
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    color: rgba(86, 86, 86, 1);
+}
+
+.list li span {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+
+.list li:nth-child(odd) {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.list li:nth-child(even) {
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.list span img {
+    width: 1.2em;
+    height: 1.2em;
+}

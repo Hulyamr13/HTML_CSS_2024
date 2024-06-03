@@ -1,0 +1,12 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 1em;
+}
+
+.site-footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: rgba(239, 239, 239, 1);
+}

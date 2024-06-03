@@ -1,0 +1,108 @@
+@media (width <=600px) {
+
+    body {
+        max-width: 23em;
+        /* max-width: 17.5em; */
+    }
+
+    .banner {
+        padding: 2em 0 0.5em 0;
+    }
+
+    .banner h2 {
+        font-size: 0.9em;
+        min-width: 18em;
+    }
+
+    .banner p {
+        font-size: 0.7em;
+        margin-bottom: 1.5em;
+    }
+
+    .banner .button {
+        font-size: 0.7em;
+        padding: 0 6.5em 0 6.5em;
+    }
+
+    .wrapper {
+        padding: 1em 0 1em 0;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 17.5em;
+    }
+
+    header.major {
+        margin-bottom: 0.5em;
+    }
+
+    .major h2 {
+        font-size: 0.9em;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        min-width: 15.5em;
+    }
+
+    .feature .fa {
+       font-size: 2em;
+    }
+
+    .feature h3 {
+        font-size: 0.7em;
+    }
+
+    .feature p {
+        font-size: 0.3em;
+        line-height: 2;
+    }
+
+    .narrow h2 {
+        font-size: 0.9em;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .form-control {
+        min-width: 15em;
+    }
+
+    .form-control label {
+        font-size: 0.6em;
+    }
+
+    #name, #email {
+       max-height: 1.5em;
+    }
+
+    #message {
+        max-height: 5em;
+    }
+
+    .actions input {
+        padding: 0 7em 0 7em;
+        font-size: 0.7em;
+    }
+
+    .footer {
+        padding: 1em 0 1em 0;
+    }
+
+    .footer .copyright {
+        margin: 0em;
+        font-size: 0.8em;
+    }
+}

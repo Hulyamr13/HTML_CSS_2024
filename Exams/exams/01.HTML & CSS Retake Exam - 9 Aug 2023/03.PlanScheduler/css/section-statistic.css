@@ -1,0 +1,27 @@
+.section-statistic {
+    display: flex;
+    margin-top: 16em;
+    margin-bottom: 2em;
+}
+
+.statistic {
+    width: 10em;
+    padding: 4em 0 0 11em;
+}
+
+.statistic :nth-child(1){
+    font-size: 3em;
+    padding-bottom: 0.7em;
+    color: rgba(255, 124, 76, 1);
+    text-align: center;
+}
+
+.statistic :nth-child(2){
+   font-size: 1em;
+   font-weight: 500;
+   text-align: center;
+}
+
+.statistic :nth-child(3){
+    font-size: 0.4em;
+}

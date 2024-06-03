@@ -1,0 +1,28 @@
+@media (width <= 600px) {
+
+    .wrapper h1{
+        font-size: 1.2em;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails div {
+        min-width: 100%;
+    }
+
+    .thumbnails a img {
+        aspect-ratio: 16/9;
+    }
+
+    footer  {
+        font-size: 0.7em;
+    }
+
+}

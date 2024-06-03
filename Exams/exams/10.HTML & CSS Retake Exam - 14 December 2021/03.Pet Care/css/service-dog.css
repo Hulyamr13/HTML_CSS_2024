@@ -1,0 +1,57 @@
+.service-dog{
+    margin-top: 5em;
+}
+
+.service-dog h3{
+    text-align: center;
+}
+
+.service-dog p:nth-child(2){
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.service-dog p:nth-child(3) {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 12.5em 0 12.5em;
+    gap: 1em;
+}
+
+.card {
+    background-image: url(../images/service-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 17%;
+    background-size: 30%;
+    position: relative;
+    padding: 3em 0.2em;
+    border: 1px solid rgba(255, 197, 193, 1);
+    border-radius: 0.3em;
+    text-align: center;
+    /* flex: 1 1 30%; */
+}
+
+
+.card img {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3em;
+    padding-top: 2em;
+}
+
+.card-content {
+    width: 15em;
+    margin-top: 4em;
+}
+
+.card-content h6 {
+    padding-bottom: 1em;
+}

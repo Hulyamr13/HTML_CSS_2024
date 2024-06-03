@@ -1,0 +1,56 @@
+.header-navigation {
+    min-height: 30em;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.site-header .container {
+    padding: 1.5em;
+    max-width: 1400px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .logo {
+    max-width: 3em;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.site-nav ul li {
+    display: block;
+}
+
+.site-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-content {
+    margin-top: 3.5em;
+}
+
+
+.header-content p {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-content-container {
+    max-width: 25em;
+}
+
+.header-content-container h1{
+    color: #fff;
+}

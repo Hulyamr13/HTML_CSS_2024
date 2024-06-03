@@ -1,0 +1,30 @@
+.site-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em 0;
+}
+
+.logo {
+    margin-top: 0.4em;
+}
+
+.logo img{
+    width: 6em;
+    height: auto;
+}
+
+.site-nav ul{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2em;
+    gap: 1em;
+}
+.site-nav li {
+    display: block;
+}
+
+.site-nav li a {
+    text-decoration: none;
+    color: #000;
+}

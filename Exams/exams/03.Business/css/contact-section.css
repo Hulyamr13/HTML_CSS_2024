@@ -1,0 +1,33 @@
+.contacts {
+    background-color: rgba(23, 23, 32, 1);
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 1.5em 0 2em 0;
+}
+
+.list h6{
+    color: #fff;
+}
+
+.list ul {
+    padding-top: 1em;
+}
+
+.list ul li {
+    display: block;
+}
+
+.list ul li:not(:last-child) {
+    padding-bottom: 0.1em;
+}
+
+.list ul li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: grey;
+    text-decoration: none;
+}

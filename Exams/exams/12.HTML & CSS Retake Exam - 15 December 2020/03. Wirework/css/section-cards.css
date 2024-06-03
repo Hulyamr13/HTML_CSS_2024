@@ -1,0 +1,29 @@
+.site-cards{
+    display: flex;
+    gap: 1em;
+    padding: 4em 2em;
+    color: #fff;
+    background-color: rgba(56, 56, 56, 1);
+}
+
+.card{
+    position: relative;
+   text-align: center;
+}
+
+.card i {
+    font-size: 2em;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: rgba(226, 78, 42, 1);
+}
+
+.border-card {
+    border-bottom: 1px solid rgba(108, 108, 108, 1);
+    margin: 1em 0;
+}
+
+.card p:last-child {
+    font-size: 0.8em;
+    color: rgba(108, 108, 108, 1);
+}

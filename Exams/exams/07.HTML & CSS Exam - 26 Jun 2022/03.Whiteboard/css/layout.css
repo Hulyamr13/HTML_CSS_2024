@@ -1,0 +1,6 @@
+.site {
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

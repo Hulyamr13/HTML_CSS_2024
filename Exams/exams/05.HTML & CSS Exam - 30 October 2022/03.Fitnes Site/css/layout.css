@@ -1,0 +1,17 @@
+body {
+    background: url(../image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-position: center -10em;
+    background-repeat: no-repeat;
+}
+
+.site {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer {
+    margin-top: auto;
+    /* С тези стилове и тези в .site правим footer да е най долу */
+}

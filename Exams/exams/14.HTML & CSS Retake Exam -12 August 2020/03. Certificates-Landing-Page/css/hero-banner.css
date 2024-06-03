@@ -1,0 +1,44 @@
+.hero-banner .container {
+    display: flex;
+    gap: 3em;
+}
+
+.banner-content {
+    margin-top: 4em;
+    max-width: 36em;
+}
+
+.last-p {
+    font-size: 0.7em;
+    font-style: italic;
+    padding: 1em 0;
+    color: rgba(63, 77, 94, 1);
+}
+
+.certificate-content {
+    padding: 1.5em;
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 0.5em;
+    background-color: rgba(41, 57, 75, 1);
+}
+
+.certificate-content p {
+    padding-bottom: 1em;
+}
+
+.media {
+    display: flex;
+    margin-top: 7em;
+}
+
+.media img {
+   height: 12em;
+   aspect-ratio: 4/5;
+}
+
+.media img:last-child {
+    height: 14em; 
+   aspect-ratio: 3/4;
+    margin-top: -2em;
+}

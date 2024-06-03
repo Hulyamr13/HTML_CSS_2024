@@ -1,0 +1,141 @@
+@media (width <=600px) {
+
+    body {
+        width: 320px;
+    }
+
+    .home-navbar-container {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .home-link,
+    .home-link1,
+    .home-link2,
+    .home-link3 {
+        font-size: 10px;
+        margin-right: 15px;
+    }
+
+    .home-cta-container {
+        justify-content: start;
+    }
+
+    .home-cta-btn {
+        white-space: nowrap;
+        padding: 5px 8px 5px 8px;
+        margin-right: 100px;
+        letter-spacing: 0.5px;
+        font-size: 9px;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+
+    .home-image1 {
+        width: 100%;
+    }
+
+    .home-heading {
+        font-size: 22px;
+        width: 230px;
+
+    }
+
+    .home-text {
+        position: relative;
+        right: 90px;
+    }
+
+    .Section-Heading {
+        line-height: 0.4;
+    }
+
+    .home-text02 {
+        position: relative;
+        right: 118px;
+        width: 300%;
+        font-size: 8px;
+    }
+
+    .home-cta-btn2 {
+        position: relative;
+        right: 22px;
+        white-space: nowrap;
+        font-size: 9px;
+        padding: 5px 8px 5px 8px;
+    }
+
+    .home-text03 {
+        white-space: nowrap;
+        font-size: 22px;
+    }
+
+    .home-text04 {
+        position: relative;
+        left: 0;
+        width: 200%;
+        font-size: 8px;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+    }
+
+    .home-image2,
+    .home-image3,
+    .home-image4 {
+        height: 200px;
+        width: 500%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .home-heading1,
+    .home-heading2,
+    .home-heading3 {
+        position: relative;
+        left: 100px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .home-text05,
+    .home-text06,
+    .home-text07 {
+        position: relative;
+        left: 96px;
+        width: 300px;
+        font-size: 8px;
+    }
+
+    .home-stats {
+        grid-template-columns: 1fr;
+        margin-top: 400px;
+    }
+
+    .home-text08,
+    .home-text13,
+    .home-text17,
+    .home-text22 {
+        font-size: 22px;
+    }
+
+    .home-text11,
+    .home-text15,
+    .home-text20,
+    .home-text24{
+        font-size: 12px;
+    }
+
+    .home-text12,
+    .home-text16,
+    .home-text21,
+    .home-text25{
+        white-space: nowrap;
+        font-size: 8px;
+    }
+
+}

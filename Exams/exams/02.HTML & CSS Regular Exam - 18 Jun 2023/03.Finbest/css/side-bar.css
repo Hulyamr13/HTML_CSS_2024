@@ -1,0 +1,33 @@
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.side-bar h2 {
+    font-size: 3.8em;
+    padding-top: 1.5em;
+}
+
+.side-bar p {
+    font-size: 1.1em;
+}
+
+.btn {
+    padding: 2em 0 4em 0
+}
+
+.btn a {
+    background-color: #000;
+    color: #fff;
+    margin: 0.5em;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+
+.btn a i {
+    padding-right: 0.5em;
+}

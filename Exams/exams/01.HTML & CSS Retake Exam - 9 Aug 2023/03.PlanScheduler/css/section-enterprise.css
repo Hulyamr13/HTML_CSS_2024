@@ -1,0 +1,51 @@
+.section-enterprise{
+    padding: 2.5em;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.card{
+    display: flex;
+}
+
+.card img {
+    width: 36%;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+.content-card :nth-child(1){
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 1em 0 2em 0;
+    color: rgba(119, 103, 98, 1);
+}
+
+.content-card :nth-child(2) {
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+}
+
+.content-card :nth-child(3) {
+    width: 100%;
+    font-size: 1.1em;
+    color: rgba(100, 100, 100, 1);
+}
+
+.content-card :nth-child(4) {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #000;
+}
+
+.content-card :nth-child(5){
+    padding-top: 2em;
+    font-size: 1.1em;
+    color: rgba(100, 100, 100, 1);
+}

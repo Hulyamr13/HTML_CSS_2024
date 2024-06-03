@@ -1,0 +1,105 @@
+@media (width <=600px) {
+
+    header {
+        background: url(https://wallpaperaccess.com/full/329583.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        display: block;
+    }
+
+    .header-title {
+        padding: 30px 0;
+    }
+
+    .header-title h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-title p {
+        font-size: 12px;
+    }
+
+    .header-title button {
+        font-size: 12px;
+    }
+
+    .team-description-wrapper :nth-child(2) {
+        font-size: 11px;
+    }
+
+    .team-description-wrapper ul {
+        flex-wrap: wrap;
+    }
+
+    .team-description-wrapper ul li {
+        padding-bottom: 45px;
+    }
+
+    .team-description-wrapper ul li p {
+        font-size: 8px;
+    }
+
+    .team-description ul li img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .about-us :nth-child(2) {
+        font-size: 11px;
+    }
+
+    .about-us :last-child {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+    }
+
+    .choose-us ul li {
+        padding-bottom: 20px;
+    }
+
+    .choose-us ul li p {
+        font-size: 12px;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .blog-news p {
+        font-size: 11px;
+    }
+
+    .blog-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .item {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .blog-news ul .item .avatar img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog-news .content h4 {
+        font-size: 8px;
+    }
+
+    .blog-news .content p {
+        width: 80%;
+        font-size: 6px;
+    }
+}

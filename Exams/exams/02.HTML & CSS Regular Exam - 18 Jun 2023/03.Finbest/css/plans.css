@@ -1,0 +1,147 @@
+.section-plans {
+    background-color: rgba(243, 245, 250, 1);
+}
+
+.section-plans header {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    text-align: center;
+    /* background-color: rgba(243, 245, 250, 1); */
+}
+
+.section-plans header span {
+    padding: 0.4em;
+    font-weight: 400;
+    border-radius: 0.3em;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.section-plans header h3 {
+    font-size: 1.8em;
+    padding-top: 1em;
+}
+
+.plans {
+    display: flex;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 0.3em;
+    margin-bottom: 3em;
+    background-color: #fff;
+}
+
+.card-plans {
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.card-plans h6 {
+    padding-top: 0.5em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.card-plans :nth-child(2) {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.card-plans :nth-child(3) {
+    font-weight: 700;
+    font-size: 1.7em;
+    padding-bottom: 0.9em;
+}
+
+.card-plans :nth-child(3)::after {
+    display: block;
+    content: '';
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+    padding-top: 0.6em;
+}
+
+.card-plans :nth-child(3) span {
+    font-size: 0.6em;
+    font-weight: 400;
+}
+
+.card-plans :nth-child(4),
+.card-plans :nth-child(5),
+.card-plans :nth-child(6),
+.card-plans :nth-child(7),
+.card-plans :nth-child(8) {
+    padding-bottom: 0.5em;
+}
+
+.card-plans :nth-child(8) {
+    padding-bottom: 3em;
+}
+
+.card-plans a {
+    display: block;
+    white-space: nowrap;
+    padding: 1em 6em 1em 6em;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.3em;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.card-plans.first a {
+    padding: 1em 5em 1em 5em;
+}
+
+.card-plans.third a {
+    padding: 1em 5em 1em 5em;
+}
+
+.first {
+    margin-top: 1em;
+    border-right: 1px solid rgba(219, 219, 219, 1);
+}
+
+.second {
+    margin-top: 1em;
+    border-right: 1px solid rgba(219, 219, 219, 1);
+}
+
+.third {
+    margin-top: 1em;
+    border-right: 1px solid rgba(219, 219, 219, 1); 
+}
+
+.expand-plans {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.expand-plans h6{
+    padding-top: 0.7em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.expand-plans :nth-child(2) {
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 85%;
+    padding-bottom: 1.5em;
+}
+
+.expand-plans :nth-child(5) {
+    padding-bottom: 11.5em;
+}
+
+.expand-plans.fourth a{
+    display: block;
+    white-space: nowrap;
+    align-self: flex-end;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    padding: 1em 14em 1em 14em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+

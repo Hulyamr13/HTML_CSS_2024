@@ -1,0 +1,38 @@
+.budapest-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    color: #fff;
+    background-color: rgba(169, 127, 27, 1);
+}
+
+.budapest-card-content {
+    width: 30em;
+}
+
+.budapest-card-content h3 {
+    text-align: center;
+}
+
+.budapest-card-content li {
+    display: block;
+    padding-bottom: 0.5em;
+}
+
+.budapest-card-content li:last-child{
+    padding-bottom: 1em;
+}
+
+.buy-now {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-now a {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 0.5em 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}

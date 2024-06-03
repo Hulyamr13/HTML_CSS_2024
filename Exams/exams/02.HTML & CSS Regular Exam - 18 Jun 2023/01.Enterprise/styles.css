@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 12px/1.5 'Inter', sans-serif;
+    /* overflow: hidden; */
+}
+
+body {
+    font: inherit;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 1);
+}
+
+
+.site {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card-list {
+    display: flex;
+    gap: 20px;
+    padding: 30px 20px 30px 5px;
+}
+
+.card {
+    flex: 1 0 30%;
+    box-shadow: 10px 10px 60px 0px rgba(173,163,173,1);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+
+.card hr {
+    position: relative;
+    width: 250px;
+    left: 25px;
+    border: 1px solid rgba(99,99,99,255);
+}
+.content {
+    padding: 20px;
+}
+
+.content p {
+    font-size: 9px;
+    color: rgba(108, 112, 116, 1);
+}
+
+.content header {
+    padding-bottom: 20px;
+}
+
+.content header h4 {
+    padding-bottom: 5px;
+    font-size: 10px;
+    color: rgba(89, 89, 90, 1);
+}
+
+.content header p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(22, 22, 22);
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 0 10px;
+}
+
+.person img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person .name {
+    flex: 1;
+    padding-left: 10px;
+    color: rgb(72, 71, 71);
+}
+
+.person .time {
+    color: rgba(160,157,170,255);
+}

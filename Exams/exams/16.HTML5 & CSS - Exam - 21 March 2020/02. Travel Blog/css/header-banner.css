@@ -1,0 +1,57 @@
+.header-hero-banner{
+    min-height: 35em;
+    background-image: linear-gradient(transparent, transparent), url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center top;
+}
+
+.header-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.media-logo {
+    width: 2em;
+}
+
+.site-nav ul{
+    display: flex;
+    gap: 1em;
+}
+
+.site-nav ul li {
+    display: block;
+}
+
+.site-nav ul li a {
+    text-decoration: none;
+    color: rgba(202, 202, 202, 1);
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+    font-size: 1.5em;
+}
+
+.site-header h1 {
+    color: #fff;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.site-header a {
+    background-color: rgba(20, 101, 148, 1);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3em 0.3em;
+    border-radius: 0.3em;
+}

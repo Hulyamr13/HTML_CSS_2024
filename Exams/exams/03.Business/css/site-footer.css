@@ -1,0 +1,13 @@
+.site-footer {
+    margin-top: auto;
+    background-color: rgba(23, 23, 32, 1);
+}
+
+.site-footer hr {
+    border: 1px solid rgba(58, 58, 65, 1);
+}
+
+.site-footer .container p {
+    color: grey;
+    padding: 1em 0;
+}

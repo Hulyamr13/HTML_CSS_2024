@@ -1,0 +1,139 @@
+@media (width <= 468px) {
+
+    body {
+        min-width: 33em;
+    }
+
+    .div-header ul {
+        display: none;
+    }
+
+    .div-logo {
+        display: none;
+    }
+
+    .logo-center {
+        width: 30%;
+    }
+
+    .button-header {
+        padding: 20px 25px;
+        font-size: 1em;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .options article {
+        text-align: center;
+        width: 100%;
+    }
+
+    .options article h4 {
+        font-size: 1.4em;
+        white-space: nowrap;
+    }
+
+    .options article a {
+        font-size: 0.9em;
+    }
+ 
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .gallery article {
+        margin-bottom: 1em;
+    }
+
+    .blog .blog-title a {
+        display: none;
+    }
+
+    .blog .blog-title h4 span {
+        display: none;
+    }
+
+    .blog .blog-title h4 {
+        font-size: 40px;
+        padding-bottom: 0.5em;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    .magazine-title{
+        padding: 0;
+        width: 100%;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+
+    .magazine-title h4 {
+        white-space: nowrap;
+        font-size: 1.9em;
+        padding-left: 0.5em;
+    }
+
+    .magazine article {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #magazine-img {
+        border: none;
+        width: 80%;
+        padding-left: 80px;
+    }
+
+    .magazine-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5em;
+    }
+
+    .magazine-info h2 {
+        text-align: start;
+    }
+
+    .magazine-info img {
+        width: 593px;
+        height: 310px;
+    }
+
+    .magazine-info h3 {
+        padding: 1em 0;
+    }
+
+    .magazine-info p {
+        padding: 0 1em 2em 1em;
+    }
+
+    footer {
+        margin-top: 0.8em;
+        flex-direction: column;
+    }
+
+    footer p {
+        margin-bottom: 1em;
+    }
+
+    footer .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}

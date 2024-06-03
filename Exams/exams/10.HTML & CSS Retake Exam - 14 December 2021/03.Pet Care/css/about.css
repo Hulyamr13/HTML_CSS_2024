@@ -1,0 +1,42 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25em;
+    background-image: url(../images/cats-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-content{
+    margin-top: 7em;
+}
+
+.about-content h3, .about-content p {
+    text-align: center;
+    color: #fff;
+}
+
+.about-content p {
+    padding-top: 1em;
+    width: 30em;
+}
+
+
+.contact-btn2{
+    margin-top: 2em;
+    color: #fff;
+}
+
+.contact-btn2 a{
+    color: rgba(255, 54, 0, 1);
+    background-color: #fff;
+    padding: 0.5em 2.5em;
+    text-decoration: none;
+    border-radius: 1em;
+    margin-right: 0.3em;
+}
+
+.contact-btn2 span {
+    margin-right: 0.3em;
+}

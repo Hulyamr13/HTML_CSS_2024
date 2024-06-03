@@ -1,0 +1,80 @@
+.articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(225, 225, 225, 1);
+}
+
+.articles .container {
+    display: flex;
+    margin: 3em 0;
+}
+
+.tittle {
+    position: relative;
+}
+
+.articles h5 {
+    position: absolute;
+    bottom: 11em;
+    right: -4em;
+    color: rgba(83, 89, 92, 1);
+}
+
+.start-article {
+    height: 26em;
+    width: 20em;
+    background-image: url(../images/packing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.end-article{
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    position: relative;
+}
+
+.first h6 {
+    color: #fff;
+    position: absolute;
+    top: 3em;
+    left: 4em;
+    text-shadow: 4px 5px 19px rgba(0,0,0,0.6);
+}
+
+.second {
+    height: 13em;
+    width: 30em;
+    background-image: url(../images/planning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second h6 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 4px 5px 19px rgba(0,0,0,0.6);
+}
+
+.third {
+    position: relative;
+    height: 13em;
+    background-image: url(../images/budget.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.third h6 {
+    position: absolute;
+    top: 11em;
+    left: 0.5em;
+    color: #fff;
+    text-shadow: 4px 5px 19px rgba(0,0,0,0.6);
+}

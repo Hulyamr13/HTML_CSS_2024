@@ -1,0 +1,36 @@
+.care {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.care-img {
+    margin: 0 2em 0 5em;
+}
+
+.care-img img {
+    width: 15em;
+}
+
+.care-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.care-content h3:nth-child(1){
+    font-weight: 300;
+}
+
+.about-btn {
+    margin-top: 1em;
+}
+
+.about-btn a{
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(240,70,53,1) 7%, rgba(237,89,21,1) 77%);
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+}

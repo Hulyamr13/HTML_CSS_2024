@@ -1,0 +1,31 @@
+.feature {
+    display: flex;
+    margin-top: 1em;
+    background-color: rgba(239, 239, 239, 1);
+}
+
+.feature-img {
+    margin: 5em;
+}
+
+.feature-content {
+    margin: 7em 5em 5em 5em;
+}
+
+.feature-content h3 {
+    padding-bottom: 0.5em;
+}
+
+.feature-content h3 span {
+    font-weight: 200;
+}
+
+.feature-content p {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.feature-img img {
+    min-width: 29.5em;
+}

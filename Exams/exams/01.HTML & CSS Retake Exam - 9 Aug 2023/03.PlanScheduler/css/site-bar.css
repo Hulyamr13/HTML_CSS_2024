@@ -1,0 +1,31 @@
+.site-bar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 16em;
+    top: 9.5em;
+    width: 39em;
+}
+
+.site-bar h2 {
+    letter-spacing: 1px;
+    font-size: 3em;
+    font-weight: 900;
+    padding-bottom: 1.3em;
+}
+
+.site-bar p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.2;
+    padding-bottom: 2em;
+}
+
+.site-bar a {
+    padding: 1em;
+    width: 6em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}

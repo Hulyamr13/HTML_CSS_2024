@@ -1,0 +1,25 @@
+.site-header {
+    margin-top: 1.5em;
+}
+
+.container {}
+
+.site-nav {}
+
+.site-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
+
+.site-nav ul li {
+    display: block;
+}
+
+.site-nav ul li a {
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(157, 157, 157, 1);
+}

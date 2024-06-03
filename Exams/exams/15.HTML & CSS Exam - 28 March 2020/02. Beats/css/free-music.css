@@ -1,0 +1,54 @@
+.free-music {
+    background-color: rgba(87, 87, 87, 1);
+}
+
+.free-music .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-content img{
+    max-width: 3em;
+    padding-right: 1em;
+}
+
+.logo-content p {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+
+.logo-content span {
+    font-weight: 600;
+}
+
+.read-more-btn {
+    margin:1em 0 1em 0
+}
+
+.read-more-btn a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.read-more-btn a i {
+    text-align: center;
+    padding-left: 0.3em;
+    font-size: 0.8em;
+}
+
+.read-more-btn a::after {
+    display: block;
+    content: '';
+    border-top: 1px solid #fff;
+}

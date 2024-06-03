@@ -1,0 +1,122 @@
+@media (width <=600px) {
+
+    .navigation-nav {
+        display: none;
+    }
+
+    .navigation-max-width img {
+        position: relative;
+        right: 10px;
+        bottom: 20px
+    }
+
+    .home-text {
+        display: none;
+    }
+
+    .home-text-container {
+        position: relative;
+        /* bottom: 60px; */
+        bottom: 5px;
+      
+    }
+
+    .home-text02 {
+        font-size: 13px;
+    }
+
+    .home-tab-selector-header {
+        margin-top: -50px;
+        font-size: 14px;
+    }
+
+    .tab-selector-btn {
+        flex: 0 0 calc(20% - 10px);
+        margin-right: 10px;
+        margin-bottom: -5px;
+    }
+
+    .home-tab-selector-header .tab-selector-btn:nth-child(2) {
+        white-space: nowrap;
+    }
+
+    .home-tab-selector-cards-container{
+        grid-template-columns: 1fr;
+        width: 108%;
+    }
+
+    .portofolio-card-first-name {
+        font-size: 14px;
+    }
+
+    .home-image-container .home-image {
+        display: none;
+    }
+
+    .home-text05 span{
+        white-space: nowrap;
+        font-size: 30px;
+    }
+
+    .home-text-container .home-text06{
+        font-size: 10px;
+    }
+
+    .Heading2 {
+        padding-top: 35px;
+        font-size: 30px;
+    }
+
+    .button-secondary{
+        margin-bottom: 60px;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .home-process {
+        font-size: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .home-text10 {
+        font-size: 46px;
+        margin-right: 25px;
+    }
+
+    .home-top-part {
+        flex-direction: column;
+    }
+
+    .section-container{
+        padding-bottom: 0px;
+        padding-top: 20px;
+    }
+
+
+    .home-links-container {
+        flex-direction: column;
+    }
+
+    .home-product-container {
+        padding-bottom: 30px;
+    }
+
+    .home-navigate-container {
+        padding-bottom: 30px;
+    }
+
+    .home-text13 {
+        white-space: nowrap;
+    }
+
+    .home-textinput{
+        align-self: center;
+        padding-left: 85px;
+    }
+
+    .button-primary {
+        margin-bottom: 20px;
+        padding: 15px 15px 15px 15px;
+    }
+
+}

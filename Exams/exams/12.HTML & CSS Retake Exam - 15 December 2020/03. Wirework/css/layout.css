@@ -1,0 +1,17 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.site-footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 4em 0;
+    color: rgba(91, 180, 149, 1);
+    background-color: rgba(27, 151, 114, 1);
+}
+
+.site-footer span {
+    color: rgba(155, 212, 197, 1);
+}

@@ -1,0 +1,66 @@
+@media (width <=600px) {
+
+    .w3-hide-small {
+        display: none;
+    }
+
+    .w3-bar .w3-button {
+        font-size: 0.8em;
+    }
+
+    .w3-wide img {
+        padding-top: 0.8em;
+    }
+
+    .w3-xxlarge {
+        margin: 0;
+        font-size: 1.4em;
+    }
+
+    #about,
+    #menu {
+        padding: 2.5em 0;
+    }
+
+    .w3-padding-large {
+        min-width: 100%;
+    }
+
+    .w3-padding-large h1:nth-child(1) {
+        font-size: 1.6em;
+    }
+
+    .w3-padding-large h5:nth-child(3) {
+        font-size: 0.9em;
+    }
+
+    .w3-padding-large p:nth-child(4),
+    .w3-padding-large p:nth-child(5) {
+        font-size: 0.7em;
+    }
+
+    .w3-col.l6 h4 {
+        font-size: 0.8em;
+    }
+
+    .w3-col.l6 p {
+        font-size: 0.6em;
+    }
+
+    #contact {
+        padding: 2.5em 1em;
+    }
+
+    #contact h1 {
+        font-size: 1.5em;
+    }
+
+    #contact p {
+        font-size: 0.7em;
+    }
+
+    footer p {
+        font-size: 0.7em;
+    }
+
+}

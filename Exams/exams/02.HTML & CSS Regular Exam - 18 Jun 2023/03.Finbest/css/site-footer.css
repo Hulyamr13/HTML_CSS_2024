@@ -1,0 +1,22 @@
+.site-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.site-footer p {
+    padding-left: 1.5em;
+}
+
+.site-footer .icons{
+    display: flex;
+}
+
+.site-footer .icons li {
+    list-style: none;
+}
+
+.site-footer .icons li a{
+    color: #000;
+    padding: 0.5em;
+}

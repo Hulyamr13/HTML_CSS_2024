@@ -1,0 +1,54 @@
+.say-hello {
+    margin-top: 1em;
+    background-color: rgba(239, 239, 239, 1);
+}
+
+.hello-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.say-hello h3 {
+    padding-bottom: 0.5em;
+}
+
+.hello-content h3 span {
+    font-weight: 200;
+}
+
+.hello-content p {
+    max-width: 60em;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.hello-content a {
+    margin-top: 2em;
+    padding: 0.3em 10.8em;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+#message {
+    text-indent: 1em;
+    font-size: 0.8em;
+    padding-top: 0.5em;
+}
+
+.input {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.input input {
+    text-indent: 1em;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0.3em 6em 0.3em 0.3em;
+}
+

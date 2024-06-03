@@ -1,0 +1,54 @@
+.work {
+    background-color: rgba(133, 220, 255, 1);
+}
+
+.work h3 {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.content-work{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-work ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+}
+
+.content-work ul li{
+    padding-bottom: 1em;
+    list-style: none;
+    height: 4em;
+    font-size: 1.1em;
+}
+
+.content-work ul li i {
+    font-size: 1em;
+    padding-right: 0.3em;
+}
+
+.content-work .left{
+    margin-left: 20em;
+}
+
+.content-work .right{
+    margin-right: 20em;
+}
+
+.mission{
+    text-align: center;
+    padding: 3em 0;
+}
+
+.mission a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 0.5em 4.5em 0.5em 4.5em;
+    border-radius: 0.3em;
+}

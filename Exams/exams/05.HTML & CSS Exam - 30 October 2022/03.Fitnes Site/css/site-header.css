@@ -1,0 +1,21 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: rgba(208, 25, 25, 1);
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.socials li a span i {
+    color: #fff;
+}
+
+.site-header .site-title {
+    display: none;
+}

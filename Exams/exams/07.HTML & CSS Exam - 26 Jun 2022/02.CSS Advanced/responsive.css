@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .left-to-right:first-child {
+        height: 600px;
+        width: 590px;
+        padding: 75px;
+    }
+
+    main .left-to-right article {
+        display: inline-block;
+        padding: 2em;
+        width: 500px;
+        height: 500px;
+        border-radius: 70px;
+    }
+
+    main .left-to-right article header p {
+        font-size: 1.5em;
+    }
+
+    main .left-to-right article p {
+        font-size: 1.4em;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main>section:nth-child(2) {
+        flex-direction: column;
+        height: 600px;
+        width: 590px;
+        padding: 55px;
+    }
+
+    main>section:nth-child(2) article {
+        padding-bottom: 1em;
+    }
+
+    main>section:nth-child(2) article header p {
+        font-size: 1.5em;
+    }
+
+    main>section:nth-child(2) article p {
+        font-size: 1.2em;
+    }
+
+    main>section:nth-child(2) article button {
+        display: none;
+    }
+
+    main>section:nth-child(2)>article:nth-child(2) img {
+        width: 550px;
+        height: 550px;
+    }
+
+    main > section.left-to-right:not(:first-of-type) {
+        margin-top: 25em;
+        height: 900px;
+        width: 590px;
+        padding: 75px;
+    }
+    
+    main > section.left-to-right:not(:first-of-type) article {
+        height: 550px;
+    }
+
+    main > section.left-to-right:not(:first-of-type) article header h1 {
+        padding-top: 1em;
+    }
+
+    main > section.left-to-right:not(:first-of-type) article p {
+        font-size: 1.5em;
+        
+    }
+
+    main > section:last-child {
+        flex-direction: column;
+    }
+
+    main > section:last-child > article:first-child form{
+        width: 715px;
+    }
+
+    main > section:last-child > article:first-child form label {
+        text-align: center;
+    }
+
+    main > section:last-child > article:last-child img{
+       padding-left: 220px;
+    }
+
+}

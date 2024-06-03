@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 15px/1.5 'Poppins', sans-serif;
+}
+
+body,
+input,
+textarea,
+ul,
+ol {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.3em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site {
+    display: flex;
+    margin: 2em auto;
+    max-width: 1200px;
+    /* max-width: 960px; */
+    padding: 1em;
+}
+
+.auto-content h3 {
+    max-width: 25em;
+    padding-bottom: 0.5em;
+}
+
+.auto-content p {
+    color: rgba(120, 120, 120, 1);
+    padding-bottom: 1em;
+    max-width: 45em;
+}
+
+.auto-content p:nth-child(3) {
+    padding-bottom: 1.5em;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.description p:first-child {
+    padding-top: 0.3em;
+    font-weight: 600;
+    color: #000;
+}
+
+.description p {
+    padding-bottom: 0;
+}
+
+.description img {
+    width: 4em;
+}
+
+.img {
+    margin-left: 2em;
+}

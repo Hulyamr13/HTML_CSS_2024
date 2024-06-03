@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Features</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <h1>Media Features</h1>
+  <p>Not complete list</p>
+  <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features">https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features</a></p>
+
+  <h2>hover</h2>
+  <p>Does the primary input mechanism allow the user to hover over elements? Added in Media Queries Level 4.</p>
+
+  <h2>@media (hover: none)</h2>
+  <p>body::before {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;content: 'This device doesn't support hover';<br>
+    }
+  </p>
+
+  <h2>orientation</h2>
+  <p>Orientation of the viewport.</p>
+
+  <h2>@media (orientation: landscape)</h2>
+  <p>body::before {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;content: 'The device is in landscape orientation';<br>
+    }
+  </p>
+
+  <h2>width</h2>
+  <p>Width of the viewport including width of scrollbar.</p>
+
+  <h2>@media (width: 600px)</h2>
+  <p>body::before {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;content: 'The viewport width is 600px';<br>
+    }
+  </p>
+
+  <h2>height</h2>
+  <p>Height of the viewport.</p>
+
+  <h2>@media (height: 800px)</h2>
+  <p>body::before {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;content: 'The viewport height is 800px';<br>
+    }
+  </p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.site-footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.site-footer ul {
+    display: flex;
+}
+
+.site-footer li,
+.site-footer a {
+    display: block;
+    padding: 1em;
+}
+
+.site-footer ul li a span i {
+    margin-right: 10em;
+    color: #000;
+}

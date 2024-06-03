@@ -1,0 +1,38 @@
+.site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.footer-logo img {
+    max-width: 6em;
+}
+
+.footer-logo p {
+    padding: 0.9em 0 0 2em;
+    font-size: 0.5em;
+    color: rgba(208, 208, 208, 1);
+}
+
+.footer-content ul {
+    display: flex;
+    gap: 0.6em;
+}
+
+.footer-content ul li {
+    display: block;
+}
+
+.footer-content ul li a {
+    font-size: 0.8em;
+    color: rgba(63, 77, 94, 1);
+    text-decoration: none;
+}
+
+.footer-content ul li span {
+    display: none;
+}

@@ -1,0 +1,70 @@
+.name-appolo {
+    display: flex;
+    margin-top: 1em;
+    background-color: rgba(239, 239, 239, 1);
+}
+
+.camera {
+    padding: 3em 3em 3em 5em;
+}
+
+.camera img {
+    min-width: 18em;
+}
+
+.name-appolo-content {
+    margin-top: 5em;
+    margin-right: 4em;
+    margin-left: 6em;
+}
+
+.header-appolo p{
+    max-width: 35em;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
+.header {
+    display: flex;
+}
+
+.header h3 {
+    padding-bottom: 0.5em;
+}
+
+.header h3 span:first-child {
+    font-weight: 200;
+}
+
+.header .border-2 {
+    border-top:1px solid #000;
+    width: 2.5em;
+    margin-right: 1em;
+    margin-top: 1.4em;
+}
+
+.icons {
+    margin-top: 2em;
+}
+
+.icons ul{
+    display: flex;
+    gap: 1em;
+}
+
+.icons li {
+    display: block;
+    background-color: rgba(144, 144, 144, 1);
+}
+
+.icons li a {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.icons li a i {
+    padding: 1em;
+
+}
