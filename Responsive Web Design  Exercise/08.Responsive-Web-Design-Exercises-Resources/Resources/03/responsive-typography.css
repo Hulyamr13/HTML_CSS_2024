@@ -1,0 +1,102 @@
+html {
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body, table, input, button {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  font-weight: normal;
+  padding-bottom: 16px;
+}
+
+h1 { font-size: 3.0em; }
+h2 { font-size: 2.4em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.2em; font-weight: bold; }
+h6 { font-size: 1em; font-weight: bold; }
+
+p, ul, ol {
+  padding-bottom: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul ul {
+  list-style-type: circle;
+}
+
+th, td {
+  width: 100ch;
+  height: 32px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+}
+
+th {
+  background-color: lightgray;
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgb(240, 240, 240);
+}
+
+blockquote {
+  border-left: 4px solid rgb(221, 221, 221);
+  margin-bottom: 1.5em;
+  font-style: italic;
+  padding-left: 1.5em;
+}
+
+blockquote p.author {
+  text-align: right;
+}
+
+html {
+    font-family: "Lato", sans-serif; /* Set font-family for the whole document */
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit; /* Set font-family for body and all heading elements */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.site {
+  width: 100ch;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  h1 { font-size: 2.6em; }
+  h2 { font-size: 2.2em; }
+  h3 { font-size: 1.6em; }
+  h4 { font-size: 1.1em; }
+  h5 { font-size: 1.1em; }
+  h6 { font-size: 0.9em; }
+}
+
+@media (max-width: 800px) {
+  h1 { font-size: 2.2em; }
+  h2 { font-size: 1.8em; }
+  h3 { font-size: 1.4em; }
+  h4 { font-size: 1em; }
+  h5 { font-size: 1em; }
+  h6 { font-size: 0.8em; }
+  .site {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
