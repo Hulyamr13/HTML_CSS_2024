@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <h1>Site title</h1>
+        <button id="menu-toggle" aria-expanded="false">Open Menu</button>
+    </header>
+    <nav id="nav-menu" class="nav-closed">
+        <button id="menu-close" aria-expanded="true">Close Menu</button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+                <a href="#">Category 1</a>
+            </li>
+            <li>
+                <a href="#">Category 2</a>
+                <ul>
+                    <li><a href="#">Subcategory 2 1</a></li>
+                    <li>
+                        <a href="#">Subcategory 2 2</a>
+                        <ul>
+                            <li><a href="#">Subcategory 2 2 1</a></li>
+                            <li><a href="#">Subcategory 2 2 2</a></li>
+                            <li><a href="#">Subcategory 2 2 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Subcategory 2 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Category 3</a></li>
+            <li><a href="#">Category 4</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('nav-menu').classList.toggle('nav-open');
+            document.getElementById('nav-menu').classList.toggle('nav-closed');
+        });
+
+        document.getElementById('menu-close').addEventListener('click', function() {
+            document.getElementById('nav-menu').classList.toggle('nav-open');
+            document.getElementById('nav-menu').classList.toggle('nav-closed');
+        });
+    </script>
+</body>
+</html>
