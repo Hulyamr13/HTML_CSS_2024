@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 1em;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-header h1 {
+    margin-bottom: 1em;
+    color: #000;
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+
+.field {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+    font-weight: bold;
+}
+
+.field .required {
+    color: red;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.75em;
+    border: 2px solid #ddd;
+    border-radius: 0.25em;
+    outline: none;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.75em;
+    background-color: orange;
+    border: none;
+    border-radius: 0.25em;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #e69500;
+}
+
+@media (max-width: 1200px) {
+    .login-container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .login-container {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        max-width: 300px;
+    }
+}
