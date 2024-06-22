@@ -102,7 +102,7 @@ img {
 .picture {
     display: flex;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0.75em 0em #60acc1, 0em 0em 2em -0.5em rgba(0, 0, 0, 0.9);
     width: 100%;
     max-width: 600px;
     margin-bottom: 2em;
